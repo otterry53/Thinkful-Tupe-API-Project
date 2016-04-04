@@ -1,0 +1,61 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+/*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+box-sizing: border-box;
+font: inherit;
+/*reset Chrome user agent styles*/
+-webkit-margin-before: 0px;
+-webkit-margin-after: 0px;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-before: 0px;
+-webkit-padding-after: 0px;
+-webkit-padding-start: 0px;
+-webkit-padding-end: 0px;
+}
+
+html {
+background-image: url('http://www.maplemoonwebdesign.com/wp-content/uploads/2012/12/1.png');
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: cover;
+height: 45.938rem;
+overflow: auto;
+}
+
+h1 {
+font-family: 'Garamond', sans-serif;
+text-align: center;
+margin-top: 5rem;
+font-size: 30px;
+color: white;
+}
+
+#find-videos {
+color: white;
+font-size: 25px;
+margin-top: 1rem;
+text-align: center;
+}
+
+.input-form {
+text-align: center;
+}
+
+.button {
+padding: 3px 8px;
+background-color: black;
+content: "Find It!";
+color: white;
+}
+
+#videos-found {
+margin-top: 2rem;
+margin-left: 8rem;
+color: white;
+width: 22rem;
+border: 2px solid white;
+}
