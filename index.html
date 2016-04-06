@@ -9,21 +9,18 @@
 
 <body>
     <section class="main">
-        <section class="header">
-            <h1>Find A Video</h1>
-            <form id="keywords-input-form">
-                <button class="finditButton" type="submit" id="get-thumbnails">Go!</button>
-                <input type="text" type="submit" placeholder="Enter keywords" id="add-keywords" />
-
-            </form>
-        </section>
+        <h1>Find A Video</h1>
+        <form id="keywords-input-form">
+            <input type="text" type="submit" placeholder="Enter keywords" id="add-keywords" autocomplete="off" />
+            <button class="finditButton" type="submit" id="get-thumbnails">Go!</button>
+        </form>
         <div id="found-videos">
             <ul></ul>
         </div>
     </section>
-    <footer>
+    <!-- <footer>
         <div class="button newSearch">New Search</div>
-    </footer>
+    </footer>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="apps/app.js"></script>
 </body>
