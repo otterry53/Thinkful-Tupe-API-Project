@@ -1,118 +1,125 @@
-    * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
-        box-sizing: border-box;
-        /*reset Chrome user agent styles*/
-        -webkit-margin-before: 0px;
-        -webkit-margin-after: 0px;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
-        -webkit-padding-before: 0px;
-        -webkit-padding-after: 0px;
-        -webkit-padding-start: 0px;
-        -webkit-padding-end: 0px;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
 
-    html {
-        background-image: url('http://www.maplemoonwebdesign.com/wp-content/uploads/2012/12/1.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 80rem;
-        height: 50rem;
-    }
+html {
+    background-image: url('http://www.maplemoonwebdesign.com/wp-content/uploads/2012/12/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80rem;
+    height: 50rem;
+}
 
-    h1 {
-        margin-top: 5rem;
-        margin-left: 33rem;
-        font-family: 'Garamond', sans-serif;
-        font-size: 30px;
-        color: white;
-    }
+h1 {
+    margin-top: 5rem;
+    margin-left: 33rem;
+    font-family: 'Garamond', sans-serif;
+    font-size: 30px;
+    color: white;
+}
 
-    #add-keywords {
-        font-family: 'Garamond', sans-serif;
-        margin-left: 31rem;
-        color: white;
-        font-size: 20px;
-        text-align: center;
-        border: 2px solid red;
-        color: black;
-        width: 15rem;
-    }
+#add-keywords {
+    font-family: 'Garamond', sans-serif;
+    margin-left: 31rem;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid red;
+    color: black;
+    width: 15rem;
+    border-radius: 10px;
+}
 
-    .finditButton {
-        margin-top: .8rem;
-        margin-left: 36rem;
-        padding-top: .1rem;
-        border-radius: 10px;
-        text-align: center;
-        width: 5rem;
-        height: 2rem;
-        background-color: red;
-        color: white;
-    }
+.goButton {
+    margin-top: 1rem;
+    margin-left: 36.5rem;
+    padding-top: .1rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 4rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+}
 
-    #found-videos {
-        margin-top: -6rem;
-        margin-left: 6rem;
-        color: white;
-        width: 70rem;
-        height: 38rem;
-    }
+.clearAll {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 33.5rem;
+    background-color: white;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 1rem;
+    padding: .2rem 1rem;
+    width: 10rem;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: 3px solid red;
+}
 
-    #found-videos ul {
-        list-style-type: none;
-        overflow: hidden;
-        margin-top: .5em;
-    }
+#found-videos {
+    margin-top: -10rem;
+    margin-left: 6rem;
+    color: white;
+    width: 70rem;
+    height: 38rem;
+}
 
-    #found-videos li {
-        float: left;
-        margin-left: 2.5rem;
-        margin-bottom: .5em;
-        padding: .1em;
-        width: 26rem;
-        height: 8rem;
-    }
+#found-videos ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: .5em;
+}
 
-    #found-videos li:nth-child(2n) {
-        float: right;
-        margin-right: 2rem;
-    }
+#found-videos li {
+    float: left;
+    margin-left: 2.5rem;
+    margin-bottom: .5em;
+    padding: .1em;
+    width: 26rem;
+    height: 8rem;
+}
 
-    #found-videos li img {
-        display: block;
-        max-width: 100%;
-        height: 5rem;
-        margin-top: .8rem;
-    }
+#found-videos li:nth-child(2n) {
+    float: right;
+    margin-right: 2rem;
+}
 
-    #found-videos li p {
-        padding-top: .4rem;
-        width: 22rem;
-        height: 2rem;
-        font-family: sans-serif;
-        text-transform: lowercase;
-    }
+#found-videos li img {
+    display: block;
+    max-width: 100%;
+    height: 5rem;
+    margin-top: .8rem;
+}
 
-    .button {
-        margin-bottom: 1rem;
-        margin-left: 30rem;
-        background-color: white;
-        border-radius: 10px;
-        border-style: none;
-        font-size: 1.5rem;
-        padding: .2rem 1rem;
-        width: 10rem;
-        color: red;
-        text-align: center;
-        border: 3px solid black;
-    }
-    /*@media only screen and (min-width: 500px) {
+#found-videos li p {
+    padding-top: .4rem;
+    width: 22rem;
+    height: 2rem;
+    font-family: sans-serif;
+    text-transform: lowercase;
+}
+
+
+}
+
+/*@media only screen and (min-width: 500px) {
     #search-results li {
         width: 48%;
         float: left;
