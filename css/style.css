@@ -1,4 +1,4 @@
-        * {
+    * {
         margin: 0;
         padding: 0;
         border: 0;
@@ -32,10 +32,6 @@
         font-size: 30px;
         color: white;
     }
-    /*#keywords-input-form {
-                                width: 1rem;
-                                margin: 0, auto;
-                            }*/
 
     #add-keywords {
         font-family: 'Garamond', sans-serif;
@@ -85,7 +81,7 @@
 
     #found-videos li:nth-child(2n) {
         float: right;
-        margin-right: 3rem;
+        margin-right: 2rem;
     }
 
     #found-videos li img {
@@ -100,7 +96,7 @@
         width: 22rem;
         height: 2rem;
         font-family: sans-serif;
-        text-transform: capitalize;
+        text-transform: lowercase;
     }
 
     .button {
@@ -116,10 +112,9 @@
         text-align: center;
         border: 3px solid black;
     }
-
-    @media only screen and (min-width: 500px) {
-        #search-results li {
-            width: 48%;
-            float: left;
-            clear: both;
-        }
+    /*@media only screen and (min-width: 500px) {
+    #search-results li {
+        width: 48%;
+        float: left;
+        clear: both;
+    }*/
