@@ -2,23 +2,30 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<title>Thinkful YouTube Challenge</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Thinkful YouTube Challenge</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body <header>
-<h1>WHERE is That Video?</h1>
-</header>
-<form id="find-videos">
-<input class="input-form" type="text" value="" placeholder="Enter keywords" maxlength="50" id="addKeywordsValue" />
-<button class="button" type="submit" id="get-thumbnails">Find It!</button>
-</form>
-<div id="videos-found">This is a test of the Div
-<ul>This is a test of the ul</ul>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="apps/app.js"></script>
+<body>
+    <section class="main">
+        <section class="header">
+            <h1>Find A Video</h1>
+            <form id="keywords-input-form">
+                <button class="finditButton" type="submit" id="get-thumbnails">Go!</button>
+                <input type="text" type="submit" placeholder="Enter keywords" id="add-keywords" />
+
+            </form>
+        </section>
+        <div id="found-videos">
+            <ul></ul>
+        </div>
+    </section>
+    <footer>
+        <div class="button newSearch">New Search</div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="apps/app.js"></script>
 </body>
 
 </html>
