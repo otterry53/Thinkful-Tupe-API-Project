@@ -11,6 +11,7 @@ function getVideos(addKeywords) {
         q: addKeywords,
         order: "viewcount",
         maxResults: 8,
+        safeSearch: "strict",
         type: "video"
     };
     var url = 'https://www.googleapis.com/youtube/v3/search';
@@ -25,7 +26,7 @@ function getVideos(addKeywords) {
 function showThumbnails(videos) {
     var videosFound = "";
     $.each(videos, function (index, video) {
-        videosFound += "<li><p>" + video.snippet.title + "</p><a href='https://www.youtube.com/watch?v=" + video.id.videoId + "' target='_blank'><img src='" + video.snippet.thumbnails.default.url + "'/></a></li>";
+        videosFound += "<li><p>" + video.snippet.title + "</p><a href='https://www.youtube.com/watch?v=" + video.id.videoId + "' target='_blank'><img src='" + video.snippet.thumbnails.high.url + "'/></a></li>";
     });
     $('#found-videos ul').html(videosFound);
 }
