@@ -101,13 +101,6 @@ h1 {
     margin-right: 2rem;
 }
 
-#found-videos li img {
-    display: block;
-    max-width: 100%;
-    height: 5rem;
-    margin-top: .8rem;
-}
-
 #found-videos li p {
     padding-top: .4rem;
     width: 22rem;
@@ -116,10 +109,10 @@ h1 {
     text-transform: lowercase;
 }
 
+#found-videos li img {
+    display: block;
+    max-width: 100%;
+    height: 5rem;
+    margin-top: .8rem;
+}
 
-/*@media only screen and (min-width: 500px) {
-    #search-results li {
-        width: 48%;
-        float: left;
-        clear: both;
-    }*/
