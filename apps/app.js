@@ -9,6 +9,7 @@ function getVideos(addKeywords) {
         part: "snippet",
         key: "AIzaSyBgEpIxrEBtyY88B-dPz_6NknNvA3IBlsk",
         q: addKeywords,
+        order: "viewcount",
         maxResults: 8,
         type: "video"
     };
@@ -39,12 +40,11 @@ $(function () {
 });
 
 //Function to how to empty the "keyword-input-form and/or #add-keywords
-/*$(".clearAll").on("click", function () {
+$(".clearAll").on("click", function () {
     emptyForm();
 });
 
-function emptyForm {
-    $('#keywords-input-form').empty();
-    $('#add-keywords').val();
+function emptyForm() {
+    $('#add-keywords').val('');
     $('#found-videos ul').empty();
-}*/
+}
